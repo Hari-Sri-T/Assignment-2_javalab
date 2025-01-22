@@ -6,6 +6,7 @@ class Main{
 		ArrayFunctions functions = new ArrayFunctions();
 		
 		functions.oddEven(in.arrayInput());
+		functions.minConDiff(in.arrayInput());
 		
 	}
 
