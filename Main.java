@@ -6,6 +6,7 @@ class Main{
 		ArrayFunctions functions = new ArrayFunctions();
 		
 		functions.display(in.arrayInput());
+		functions.oddEven(in.arrayInput());
 		
 	}
 
