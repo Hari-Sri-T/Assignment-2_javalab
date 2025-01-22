@@ -21,22 +21,19 @@ class ArrayFunctions{
 		display(even);
 	}
 	
-	public void minConDiff(int[] array){
-		
+	public void minConDiff(int[] array){	
 		int min_index = 0;
-		int min_diff = array[0] - array[1];
+		int min_diff = Math.abs(array[0] - array[1]);
 		
 		for ( int i = 1; i < array.length-1; i++){
 			int diff;
 			
-			diff = array[i] - array[i+1];
+			diff = Math.abs(array[i] - array[i+1]);
 			
 			if ( diff < min_diff ){
 				min_index = i;
 				min_diff = diff;
 			}
-	
-
 		}
 			System.out.println("Minimum Difference: "+min_diff);
 			System.out.println("index: "+min_index);
