@@ -24,6 +24,7 @@ This Java program takes an array of integers as input from the user, processes i
 3. **ArrayFunctions.java**
    - `display(ArrayList<Integer> array)`: Prints the given array.
    - `oddEven(int[] array)`: Separates even and odd numbers and prints them.
+   - `convertArrayList(int[] array)`: Converts the input Array into ArrayList and prints it
    - `minConDiff(int[] array)`: Finds and prints two consecutive numbers with the least difference.
 
 ## Usage
@@ -50,6 +51,8 @@ Odd numbers are:
 
 Even numbers are:
 [8, 2]
+
+The ArrayList is: [3,8,2,9,7]
 
 Minimum Difference: 1
 Index: 3
