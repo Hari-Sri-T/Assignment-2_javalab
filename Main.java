@@ -12,5 +12,6 @@ class Main{
 		//calling methods from ArrayFunctions while passing array (arrayInput) from UserInput
 		functions.oddEven(in.arrayInput()); 
 		functions.minConDiff(in.arrayInput());
+		functions.convertArrayList(in.arrayInput());
 	}
 }
