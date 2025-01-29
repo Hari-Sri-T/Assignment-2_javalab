@@ -1,17 +1,15 @@
 //UserInput.java
 
-import java.util.*;
+import java.util.*; // importing for Array and Scanner
 class UserInput{
-	int[] arrayInput(){
-		Scanner scan = new Scanner(System.in);
-		int[] array = new int[5];
-		System.out.println("Enter 5 numbers: ");
+	int[] arrayInput(){ //method to take array from user
+		Scanner scan = new Scanner(System.in); //declaring scanner object
+		int[] array = new int[5];  //initializing an Array with size 5
+		System.out.println("\nEnter 5 numbers: ");
 		
 		for (int i = 0; i < array.length; i++){
-			array[i] = scan.nextInt();
+			array[i] = scan.nextInt();  //taking values from user
 		}
-		return array;
+		return array; //returns the Array
 	}
-	
-
 }
